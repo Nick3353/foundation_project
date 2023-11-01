@@ -1,0 +1,21 @@
+#search
+{
+    width: 238px;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid #C2D1D9 ;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button
+{
+    width: 87px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #006634;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
