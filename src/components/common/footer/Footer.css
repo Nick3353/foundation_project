@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+.foot
+{
+    width:100vw;
+    height:384px;
+    background-color:#0D0D0D;
+    color:#FFFFFF;
+    padding:60px;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+
+.footer-top
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+.component nav ul 
+{
+    display:flex;
+    flex-direction:column;
+    line-height:10px;
+}
+
+.component nav h2
+{
+    padding-bottom:10px;
+}
+
+
+
+
+.footer-icon ul 
+{
+    display:flex;
+    justify-content:center;
+    font-size:40px;
+}
+
+
+.copy-write
+{
+    display:flex;
+    justify-content:center;
+}
+
+.third-component
+{
+    text-align:right;
+}
+
+.third-component h2
+{
+    font-size:33px;
+}
+
+
+.search-footer
+{
+    padding:10px 0 10px 10px;
+}

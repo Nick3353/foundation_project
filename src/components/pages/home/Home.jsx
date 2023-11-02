@@ -1,7 +1,8 @@
 import "./home.css";
 import { banner, overview } from "../../../assets/images/image";
 import Navbar from "../../common/navbar/Nav";
-// import Header from "../../common/header/Header"
+import Footer from "../../common/footer/Footer";
+import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
 
@@ -59,24 +60,36 @@ function Home() {
       </div>
 
       <div className="btn">
-        <Btn text="Volunteer "/>
+        <Btn text="Volunteer " />
       </div>
       {/* Body A Ends Here */}
 
-      {/* Header Starts Here  */}
-      {/* <Header/> */}
-      {/* Header Ends Here  */}
+      {/* Header starts here */}
+
+      <div className="Header">
+        <Header text=" People &" sub=" Business We Aim To Empower." />
+      </div>
+      {/* Header ends here */}
 
 
 
 
+      {/* slider menu starts Here  */}
+      <div>
+      <div className="Header">
+        <Header text=" Over 1,000 Transformed Bussiness"/>
+      </div>
 
 
+      </div>
+      {/* slider menu ends Here  */}
 
 
-
-
-
+      {/* Footer Starts Here */}
+      <div>
+        <Footer />
+      </div>
+      {/* Footer Ends Here */}
     </div>
   );
 }
