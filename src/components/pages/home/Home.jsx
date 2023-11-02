@@ -2,6 +2,7 @@ import "./home.css";
 import { banner, overview } from "../../../assets/images/image";
 import Navbar from "../../common/navbar/Nav";
 import Footer from "../../common/footer/Footer";
+// import Slider from "../../common/slider/Slider";
 import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
@@ -70,6 +71,8 @@ function Home() {
         <Header text=" People &" sub=" Business We Aim To Empower." />
       </div>
       {/* Header ends here */}
+
+      {/* <Slider /> */}
 
       {/* Footer Starts Here */}
       <div>
