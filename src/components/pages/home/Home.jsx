@@ -2,7 +2,6 @@ import "./home.css";
 import { banner, overview } from "../../../assets/images/image";
 import Navbar from "../../common/navbar/Nav";
 import Footer from "../../common/footer/Footer";
-// import Slider from "../../common/slider/Slider";
 import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
@@ -72,7 +71,19 @@ function Home() {
       </div>
       {/* Header ends here */}
 
-      {/* <Slider /> */}
+
+
+
+      {/* slider menu starts Here  */}
+      <div>
+      <div className="Header">
+        <Header text=" Over 1,000 Transformed Bussiness"/>
+      </div>
+
+
+      </div>
+      {/* slider menu ends Here  */}
+
 
       {/* Footer Starts Here */}
       <div>
