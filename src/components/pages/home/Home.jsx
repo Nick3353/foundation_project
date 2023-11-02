@@ -5,6 +5,7 @@ import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
+// import HomeSlider from "../../common/sliders/homeslider/Slider";
 
 function Home() {
   return (
@@ -71,19 +72,34 @@ function Home() {
       </div>
       {/* Header ends here */}
 
-
-
-
       {/* slider menu starts Here  */}
-      <div>
-      <div className="Header">
-        <Header text=" Over 1,000 Transformed Bussiness"/>
-      </div>
-
-
-      </div>
       {/* slider menu ends Here  */}
 
+      {/* matrix starts */}
+      <div>
+        <div className="Header">
+          <Header text=" Over 1,000 Transformed Bussiness" />
+        </div>
+        <div className="matrix-row">
+          <div className="matrix1">
+            <h5>231</h5>
+            <p>Microfinance Businesses </p>
+          </div>
+          <div className="matrix2">
+            <h5>null</h5>
+            <p>StartUps </p>
+          </div>
+          <div className="matrix3">
+            <h5>null</h5>
+            <p>Agricultural & Farming Initiatives</p>
+          </div>
+          <div className="matrix4">
+            <h5>null</h5>
+            <p>Education Initiatives</p>
+          </div>
+        </div>
+      </div>
+      {/* matrix ends */}
 
       {/* Footer Starts Here */}
       <div>

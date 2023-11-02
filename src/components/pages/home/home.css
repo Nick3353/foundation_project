@@ -1,98 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-  /* Banner Starts Here */
 
-#bannerimg
-{
-    width: 100vw;
-    z-index: -1;
-}
-.banner
-{
+/* Banner Starts Here */
 
-    position: absolute;
-    top:0;
+#bannerimg {
+  width: 100%;
+  z-index: -1;
 }
-h1
-{
-    color: #ffffff;
-    text-align: center;
-    font-size: 60px;
-    padding-top: 280px;
-    font-family: 'EB Garamond', serif;
+.banner {
+  position: absolute;
+  top: 0;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 280px;
+  font-family: "EB Garamond", serif;
 }
 
-.btn
-{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding-top: 50px;
-    
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
-
 
 /* Banner Ends Here */
 
-
-
-
 /* Body A Sarts here */
-.BodyA
-{
-    padding:20px;
+.BodyA {
+  padding: 20px;
 }
 /* Body A Ends here */
 
-
 .content {
-    width: 100%;
-    padding: 80px;
-    overflow: hidden;
-    display: flex;
+  width: 100%;
+  padding: 80px;
+  overflow: hidden;
+  display: flex;
 }
 
 .image {
-    width: 611px;
-    float: left; 
-    margin-right: 10px; 
-    padding: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
- 
-  
-
-
-  .sub-container
-  {
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 30px;
-  }
-
-
-  .sub-container h2
-  {
-    text-align: center  ;
-    padding-bottom: 50px;
-  }
-
-
-.BodyA p
-{
-    font-family: "Montserrat", sans-serif;
-    line-height: 30px;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+  width: 611px;
+  float: left;
+  margin-right: 10px;
+  padding: 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+.sub-container {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
 
-.Header
-{
-  padding-top:70px;
+.sub-container h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.BodyA p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Header {
+  padding-top: 70px;
+}
+
+.matrix-row {
+  display: flex;
+}
+
+.matrix1,
+.matrix2,
+.matrix3,
+.matrix4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height:260px;
+  padding:20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  text-align:center;
+  font-size:25px;
+}
+
+.matrix1,
+.matrix4 {
+  background-color: #494b4a;
+  width:30%;
+}
+.matrix2 {
+  background-color: #ffcf61;
+  width:20%;
+
+}
+.matrix3 {
+  background-color: #a0b7e3;
+  width:20%;
+
 }
