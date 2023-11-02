@@ -1,0 +1,24 @@
+.starter{
+    position: relative;
+}
+ 
+ .starter img{
+    max-width: 100%;
+    height: 40rem;
+    //margin: 0 auto;
+    padding-left: calc(50% - 50rem);
+    width: 100%;
+     padding-right: 10rem;
+ }
+
+ .text{
+    position: absolute;
+    top: 25%;
+    
+    padding-left: 20rem;
+    
+ }
+ .text p{
+    font-size: 2rem;
+    color: white;
+ }
