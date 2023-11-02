@@ -8,6 +8,8 @@ import overview from "./overview.png"
 import starter from "./starter.png"
 import mission from "./mission.png"
 import vision from "./vision.jpeg"
+import corevalues1 from "./corevalues1.jpg"
+import corevalues2 from "./corevalues2.jpg"
 
 export{
     logo,
@@ -20,5 +22,7 @@ export{
     starter,
     mission,
     vision,
+    corevalues1,
+    corevalues2,
     
 }

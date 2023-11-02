@@ -21,3 +21,113 @@
     font-size: 2rem;
     color: white;
  }
+
+ .mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ div.mission img{
+    padding: 5rem;
+    width: 30%;
+    padding-left: 10rem;
+    margin-left: 10rem;
+ }
+
+ div.mission .mission-notes h2{
+    padding: 3rem;
+    margin-left: 25rem;
+    color:#006634;
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+ }
+ div.mission .mission-notes p{
+    font-size: 20px;
+    font-family: tahoma;
+ }
+
+ #add-ons-notes{
+    font-size: 20px;
+    margin-left: 25rem;
+    padding: -1rem;
+    font-family: tahoma;
+ }
+
+ .wrapper{
+    width: 100%;
+    height: 600px;
+    
+    margin: 3rem;
+    
+    display: flex;
+    
+ }
+
+ div.wrapper .vision{
+    width: 70%;
+    height: 100%;
+    background:white;
+    
+ }
+
+ .div-2{
+    width: 30%;
+    height: 100%;
+    background:#006634;
+    border-left: 100px solid white;
+    border-bottom:  600px solid transparent;
+    box-sizing: border-box;
+ }
+
+ div.wrapper .vision h3{
+    margin: 4rem;
+    margin-left: 30rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    color: #006634;
+
+ }
+
+ div.wrapper .vision p{
+    font-size: 20px;
+    font-family: tahoma;
+    padding: 4rem ;
+ }
+
+ div.div-2 img{
+    margin-left: -18rem;
+    margin-top: 10rem;
+ }
+
+ .header
+{
+  padding-top:10px;
+  width: 100%;
+}
+
+.core-values_1{
+    padding: 3rem;
+    margin: 2rem;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.core-value_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#core-value1{
+    height: 29.8rem;
+    width: 40%;
+}
+
+#core-value2{
+    width: 40%;
+    height: 30rem;
+}
