@@ -1,6 +1,7 @@
 import "./home.css";
 import { banner, overview } from "../../../assets/images/image";
 import Navbar from "../../common/navbar/Nav";
+import Footer from "../../common/footer/Footer"
 // import Header from "../../common/header/Header"
 import Btn from "../../common/btn/Btn";
 import React from "react";
@@ -63,10 +64,7 @@ function Home() {
       </div>
       {/* Body A Ends Here */}
 
-      {/* Header Starts Here  */}
-      {/* <Header/> */}
-      {/* Header Ends Here  */}
-
+  <Footer/>
 
 
 
