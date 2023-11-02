@@ -1,10 +1,12 @@
+import "./Footer.css"
+
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
         {/* footer sections */}
-        <div></div>
+        <div>hello jack</div>
         <div></div>
         <div></div>
         {/* footer sections */}

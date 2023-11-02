@@ -1,0 +1,17 @@
+.header
+{
+    width: 100vw;
+    height: 220px;
+    background-color: #006634;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.header p
+{
+    font-size:45px;
+    color:#FFFFFF;
+}
