@@ -1,5 +1,7 @@
-import React from 'react';
+import 'chart.js';
 import { Pie } from 'react-chartjs-2';
+import React from 'react';
+// import { Pie } from 'react-chartjs-2';
 
 const PieChart = () => {
   const data = {
@@ -13,6 +15,7 @@ const PieChart = () => {
     ],
   };
 
+  console.log(data);
   return <Pie data={data} />;
 };
 
