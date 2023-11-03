@@ -5,7 +5,7 @@
     width:100vw;
     height:384px;
     background-color:#0D0D0D;
-    color:#FFFFFF;
+    color:#fff;
     padding:60px;
     font-family: 'Overpass', sans-serif;
 
@@ -28,6 +28,10 @@
 .component nav h2
 {
     padding-bottom:10px;
+}
+
+div.foot .component nav ul li a{
+    color: #fff; 
 }
 
 
@@ -61,4 +65,8 @@
 .search-footer
 {
     padding:10px 0 10px 10px;
+}
+
+.footer-icon ul li a{
+    color: #fff;
 }

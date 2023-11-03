@@ -8,7 +8,7 @@ import Footer from '../../common/footer/Footer'
 const About = () => {
   return (
     <div className=''>
-     <Nav/> 
+     <Nav className="home-nav"/> 
      <div class="starter">
         <img src={starter} alt="starter" id='starter-img'/>
         <div class="text">
@@ -24,20 +24,45 @@ const About = () => {
             <div className='mission-notes'>
                 <h2>Mission</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
-                  repellendus animi qui ut, a Lorem ipsum dolor<br/> sit amet consectetur adipisicing elit. Ab
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
                    laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
-                   cum beatae. Amet quaerat veritatis inventore <br/>ipsa aperiam!
-                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae.</p>
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  .</p>
             </div>
             
 
      </div>
-     <p id='add-ons-notes'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/> Sed aperiam delectus dolor sunt modi, 
-                  repellendus animi qui ut, a Lorem ipsum dolor<br/>sit amet consectetur adipisicing elit. Ab
+             <div className='add-ons-notes'>
+     <p id='add-ons-notes'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
                    laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
-                   cum beatae. Amet quaerat <br/>veritatis inventore ipsa aperiam!
-                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi f</p>
-
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                   spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                   f</p>
+                   </div>
+               
+               
 
                   <div className="wrapper">
                          <div className="vision">
