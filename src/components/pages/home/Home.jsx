@@ -13,6 +13,7 @@ function Home() {
   return (
     <div className="">
       {/* Banner Starts Here */}
+
       <img src={banner} alt="banner" id="bannerimg" />
       <div className="banner">
         <Navbar />

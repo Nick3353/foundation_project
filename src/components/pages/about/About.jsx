@@ -13,10 +13,17 @@ import Footer from "../../common/footer/Footer";
 
 const About = () => {
   return (
+<<<<<<< HEAD
+    <div className=''>
+     <Nav className="home-nav"/> 
+     <div class="starter">
+        <img src={starter} alt="starter" id='starter-img'/>
+=======
     <div className="">
       <Nav />
       <div class="starter">
         <img src={starter} alt="starter" id="starter-img" />
+>>>>>>> 140fef71c2eb54a18c8f6bfe85b74011314bb2d6
         <div class="text">
           <h1>Who We Are</h1>
           <p>
@@ -26,6 +33,52 @@ const About = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
+     <div className='mission'>
+      <img src={mission} alt="mission"  />
+            <div className='mission-notes'>
+                <h2>Mission</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  .</p>
+            </div>
+            
+
+     </div>
+             <div className='add-ons-notes'>
+     <p id='add-ons-notes'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi
+                  spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                   spernatur quisquam saepe necessitatibus vero reiciendis assumenda quod non nisi fuga vitae
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aperiam delectus dolor sunt modi, 
+                  repellendus animi qui ut, a Lorem ipsum dolorsit amet consectetur adipisicing elit. Ab
+                   laudantium dolores cum. Saepe, facere iste! Ad quam deleniti laborum libero distinctio 
+                   cum beatae. Amet quaerat veritatis inventore ipsa aperiam!
+                   f</p>
+                   </div>
+               
+               
+=======
       <div className="mission">
         <img src={mission} alt="mission" />
         <div className="mission-notes">
@@ -80,6 +133,7 @@ const About = () => {
           <img src={vision} alt="vision" />
         </div>
       </div>
+>>>>>>> 140fef71c2eb54a18c8f6bfe85b74011314bb2d6
 
       {/* core-values starts Here */}
       <div className="header">

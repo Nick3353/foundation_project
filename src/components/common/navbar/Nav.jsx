@@ -9,8 +9,13 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="logo" className="logo" />
       </div>
+<<<<<<< HEAD
+      <div className="nav_elements">
+        <nav>
+=======
       <div className="navbar">
         <nav className="Navigator">
+>>>>>>> 140fef71c2eb54a18c8f6bfe85b74011314bb2d6
           <ul>
             <li>
               <a href="#home"> Home</a>
