@@ -1,8 +1,10 @@
 import "./impact_stories.css";
 import Nav from "../../common/navbar/Nav";
 import React from "react";
+import Footer from "../../common/footer/Footer"
 import Header from "../../common/header/Header";
-import { stories1, stories2, stories3, stories4,stories5, stories6 } from "../../../assets/images/image";
+// import PieChart from "../../common/piechart/PieChart"
+import { stories1, stories2, stories3, stories4,stories5, stories6 ,stories7,sss,} from "../../../assets/images/image";
 
 function Impact_stories() {
   return (
@@ -102,10 +104,28 @@ function Impact_stories() {
 
 
       {/* body D start */}
-      <div>
-        
+      <div className="bodyD">
+        <div>
+        <img src={sss} alt=""  className="bodyD-texxt-container"/>
+        </div>
+        <div>
+            <img src={stories7} alt="" className="bodyD-image" />
+        </div>
       </div>
       {/* body D  end */}
+
+
+
+
+      {/* body E start */}
+      <div>
+        {/* <PieChart/> */}
+      </div>
+      {/* body E end */}
+
+      {/* footer */}
+      <Footer/>
+      {/* footer */}
     </div>
   );
 }

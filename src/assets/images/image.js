@@ -16,7 +16,8 @@ import stories3 from "./stories3.png"
 import stories4 from "./stories4.png"
 import stories5 from "./stories5.png"
 import stories6 from "./stories6.png"
-
+import stories7 from "./stories7.png"
+import sss from "./sss.png"
 export{
     logo,
     banner,
@@ -36,5 +37,7 @@ export{
     stories4,
     stories5,
     stories6,
+    stories7,
+    sss,
     
 }
