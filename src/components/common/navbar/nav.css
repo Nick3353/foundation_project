@@ -15,6 +15,9 @@
 /* Navbar Starts Here */
 .Navigator{
     padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
 }
 .Navigator ul {
     display: flex;

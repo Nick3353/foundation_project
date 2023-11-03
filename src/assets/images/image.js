@@ -10,6 +10,12 @@ import mission from "./mission.png"
 import vision from "./vision.jpeg"
 import corevalues1 from "./corevalues1.jpg"
 import corevalues2 from "./corevalues2.jpg"
+import stories1 from "./stories1.png"
+import stories2 from "./stories2.png"
+import stories3 from "./stories3.png"
+import stories4 from "./stories4.png"
+import stories5 from "./stories5.png"
+import stories6 from "./stories6.png"
 
 export{
     logo,
@@ -24,5 +30,11 @@ export{
     vision,
     corevalues1,
     corevalues2,
+    stories1,
+    stories2,
+    stories3,
+    stories4,
+    stories5,
+    stories6,
     
 }
