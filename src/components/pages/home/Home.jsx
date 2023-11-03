@@ -5,6 +5,8 @@ import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
+// import  MySwiper from "../../common/sliders/business/Busswiper/MySwiper"
+// import MySwiper from "../../common/sliders/business/Busswiper";
 // import HomeSlider from "../../common/sliders/homeslider/Slider";
 
 function Home() {
@@ -56,7 +58,7 @@ function Home() {
           voluptatem sequi nesciunt. Nequeporro quisquam est.. Neque porro
           quisquam. Nemo enim ipsam voluptatemm quia vNemo enim ipsam voluptatem
           quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-          quia voluptas sit aspernatur aut odit{" "}
+          quia voluptas sit aspernatur aut odit
         </p>
       </div>
 
@@ -73,6 +75,7 @@ function Home() {
       {/* Header ends here */}
 
       {/* slider menu starts Here  */}
+      <MySwiper />
       {/* slider menu ends Here  */}
 
       {/* matrix starts */}
