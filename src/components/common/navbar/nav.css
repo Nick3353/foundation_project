@@ -13,20 +13,22 @@
 }
 
 /* Navbar Starts Here */
-nav{
+.Navigator{
     padding: 25px;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 
-ul {
-    display: flex;
-    gap: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
 }
-ul li {
+.Navigator ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.Navigator ul li 
+{
     list-style: none;
 }
+<<<<<<< HEAD
 .nav_elements nav ul li a{
     text-decoration: none;
     color:#fff;
@@ -36,6 +38,14 @@ ul li {
 ul li a{
     text-decoration: none;
 }
+=======
+.Navigator ul li a
+{
+    text-decoration: none;
+    color: #232524;
+}
+
+>>>>>>> 140fef71c2eb54a18c8f6bfe85b74011314bb2d6
 
 .logo{
     padding: 20px;

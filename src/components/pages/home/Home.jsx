@@ -5,6 +5,9 @@ import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
 import Btn from "../../common/btn/Btn";
 import React from "react";
+// import  MySwiper from "../../common/sliders/business/Busswiper/MySwiper"
+// import MySwiper from "../../common/sliders/business/Busswiper";
+// import HomeSlider from "../../common/sliders/homeslider/Slider";
 
 function Home() {
   return (
@@ -56,7 +59,7 @@ function Home() {
           voluptatem sequi nesciunt. Nequeporro quisquam est.. Neque porro
           quisquam. Nemo enim ipsam voluptatemm quia vNemo enim ipsam voluptatem
           quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-          quia voluptas sit aspernatur aut odit{" "}
+          quia voluptas sit aspernatur aut odit
         </p>
       </div>
 
@@ -72,19 +75,35 @@ function Home() {
       </div>
       {/* Header ends here */}
 
-
-
-
       {/* slider menu starts Here  */}
-      <div>
-      <div className="Header">
-        <Header text=" Over 1,000 Transformed Bussiness"/>
-      </div>
-
-
-      </div>
+      {/* <MySwiper /> */}
       {/* slider menu ends Here  */}
 
+      {/* matrix starts */}
+      <div>
+        <div className="Header">
+          <Header text=" Over 1,000 Transformed Bussiness" />
+        </div>
+        <div className="matrix-row">
+          <div className="matrix1">
+            <h5>231</h5>
+            <p>Microfinance Businesses </p>
+          </div>
+          <div className="matrix2">
+            <h5>null</h5>
+            <p>StartUps </p>
+          </div>
+          <div className="matrix3">
+            <h5>null</h5>
+            <p>Agricultural & Farming Initiatives</p>
+          </div>
+          <div className="matrix4">
+            <h5>null</h5>
+            <p>Education Initiatives</p>
+          </div>
+        </div>
+      </div>
+      {/* matrix ends */}
 
       {/* Footer Starts Here */}
       <div>
