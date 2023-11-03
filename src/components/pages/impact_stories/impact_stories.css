@@ -124,9 +124,47 @@
 }
 .bodyD-texxt-container
 {
-    height: 660px ;
+    height: 550px ;
 }
 .bodyD-image
 {
     height: 660px;
+}
+.bodyD .sub1
+{
+    width: 550px ;
+
+}
+
+.bodyD .sub1 h2
+{
+    color: #22495F;
+    font-size: 40px;
+    font-weight:900;
+
+}
+.bodyD-sub-container
+{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+.bodyD-sub-text
+{
+    width: 370px;
+}
+
+.bodyD-sub-text h4
+{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.bodyD-icon
+{
+    background-color: #006634;
+    height: auto;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
 }

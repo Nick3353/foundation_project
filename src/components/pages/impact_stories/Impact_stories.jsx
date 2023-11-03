@@ -1,10 +1,20 @@
 import "./impact_stories.css";
 import Nav from "../../common/navbar/Nav";
 import React from "react";
-import Footer from "../../common/footer/Footer"
+import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
 // import PieChart from "../../common/piechart/PieChart"
-import { stories1, stories2, stories3, stories4,stories5, stories6 ,stories7,sss,} from "../../../assets/images/image";
+import {
+  stories1,
+  stories2,
+  stories3,
+  stories4,
+  stories5,
+  stories6,
+  stories7,
+  sss,
+} from "../../../assets/images/image";
+import { FaBuilding } from "react-icons/fa";
 
 function Impact_stories() {
   return (
@@ -66,65 +76,87 @@ function Impact_stories() {
       </div>
       {/* header */}
 
-
-
       {/* body C start */}
       <div className="BodyC">
         <div className="story">
-            <img src={stories4} alt="" className="overlay-image" />
-            <div className="overlay-text">
+          <img src={stories4} alt="" className="overlay-image" />
+          <div className="overlay-text">
             <h4>Mission smile 1k: Outdoor charity</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
             <button>Learn more</button>
-            </div>
+          </div>
         </div>
         <div className="story">
-            <img src={stories5} alt="" className="overlay-image" />
-            <div className="overlay-text">
+          <img src={stories5} alt="" className="overlay-image" />
+          <div className="overlay-text">
             <h4>Mission smile 1k: Outdoor charity</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
             <button>Learn more</button>
-            </div>
+          </div>
         </div>
         <div className="story">
-            <img src={stories6} alt="" className="overlay-image" />
-            <div className="overlay-text">
+          <img src={stories6} alt="" className="overlay-image" />
+          <div className="overlay-text">
             <h4>Mission smile 1k: Outdoor charity</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
             <button>Learn more</button>
-            </div>
+          </div>
         </div>
       </div>
 
       <div className="btn-container">
-        <button className="stories-btn">Discover more Impact <br /> Stories</button>
+        <button className="stories-btn">
+          Discover more Impact <br /> Stories
+        </button>
       </div>
       {/* body C end */}
 
-
-
       {/* body D start */}
       <div className="bodyD">
-        <div>
-        <img src={sss} alt=""  className="bodyD-texxt-container"/>
+        <div className="sub1">
+          <>
+            <h2>
+              Some Services we <br /> Provide For Struggling <br /> Businesses
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <img src={sss} alt="" className="bodyD-texxt-container" />
+          </>
+          <div>
+            <div className="bodyD-sub-container">
+              <div className="bodyD-icon">
+                <FaBuilding/>
+              </div>
+              <div className="bodyD-sub-text">
+                <h4>Entrepreneurship </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-            <img src={stories7} alt="" className="bodyD-image" />
+          <img src={stories7} alt="" className="bodyD-image" />
         </div>
       </div>
       {/* body D  end */}
 
-
-
-
       {/* body E start */}
-      <div>
-        {/* <PieChart/> */}
-      </div>
+      <div>{/* <PieChart/> */}</div>
       {/* body E end */}
 
       {/* footer */}
-      <Footer/>
+      <Footer />
       {/* footer */}
     </div>
   );
