@@ -12,9 +12,18 @@
     width: 220px;
 }
 
+.nav-body
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar
+{
+    padding-top: 20px;
+}
 /* Navbar Starts Here */
 .Navigator{
-    padding: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 
@@ -28,41 +37,36 @@
 {
     list-style: none;
 }
-<<<<<<< HEAD
+.nav_elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_elements nav ul li a{
     text-decoration: none;
-    color:#fff;
+    color:#232524;
 
 }
 
 ul li a{
     text-decoration: none;
 }
-=======
 .Navigator ul li a
 {
     text-decoration: none;
     color: #232524;
 }
 
->>>>>>> 140fef71c2eb54a18c8f6bfe85b74011314bb2d6
 
 .logo{
     padding: 20px;
 }
 
-
-.body
-{
-    width: 100vw;
-    display: flex;
-    justify-content: space-around   ;
-    justify-items: center;  
-}
-
-.search
-{
-    padding: 20px;
+ 
+    .search
+    {
+        padding: 0px 20px 0px 20px;
 }
 /* Navbar Ends Here */
 

@@ -3,7 +3,6 @@ import Nav from "../../common/navbar/Nav";
 import React from "react";
 import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
-// import PieChart from "../../common/piechart/PieChart"
 import {
   stories1,
   stories2,
@@ -14,7 +13,8 @@ import {
   stories7,
   sss,
 } from "../../../assets/images/image";
-import { FaBuilding } from "react-icons/fa";
+// import { FaBuilding } from "react-icons/fa";
+import PieChart from "../../common/piechart/PieChart";
 
 function Impact_stories() {
   return (
@@ -124,16 +124,16 @@ function Impact_stories() {
       <div className="bodyD">
         <div className="sub1">
           <>
-            <h2>
+            {/* <h2>
               Some Services we <br /> Provide For Struggling <br /> Businesses
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
-            </p>
+            </p> */}
             <img src={sss} alt="" className="bodyD-texxt-container" />
           </>
-          <div>
+          {/* <div>
             <div className="bodyD-sub-container">
               <div className="bodyD-icon">
                 <FaBuilding/>
@@ -143,7 +143,7 @@ function Impact_stories() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img src={stories7} alt="" className="bodyD-image" />
@@ -152,7 +152,15 @@ function Impact_stories() {
       {/* body D  end */}
 
       {/* body E start */}
-      <div>{/* <PieChart/> */}</div>
+      <div className="bodyE">
+        <div className="bodyE-text-container">
+          <h2>How we spend your Funds on Individuals and Businesses </h2>
+          <p>We understand that when you make a  donation, you want to know exactly where your money is going and we pledge to be transparent.</p>
+        </div>
+        <div className="chart">
+          <PieChart />
+        </div>
+      </div>
       {/* body E end */}
 
       {/* footer */}

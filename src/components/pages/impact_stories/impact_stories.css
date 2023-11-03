@@ -168,3 +168,35 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+.bodyE
+{
+    height:auto ;
+    width: 100%;
+    background-color: #006634;
+    text-align: center;
+}
+
+
+
+.bodyE-text-container
+{
+    width: 600px;
+    color: #ffffff;
+}
+.bodyE-text-container h2
+{
+    font-size: 40px;
+    padding: 30px;
+    /* position: absolute; */
+}
+
+.chart
+{
+    display: flex;
+    /* padding-top: -50px; */
+    /* justify-content: start; */
+    align-items: center;
+    /* margin: 122px; */
+}
+
