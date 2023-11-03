@@ -75,7 +75,7 @@ function Home() {
       {/* Header ends here */}
 
       {/* slider menu starts Here  */}
-      <MySwiper />
+      {/* <MySwiper /> */}
       {/* slider menu ends Here  */}
 
       {/* matrix starts */}
